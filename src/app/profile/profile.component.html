@@ -1,7 +1,8 @@
+<img src="../assets/git.png" >
 <br>
 <form action="" class="searchform">
   <div class="form-group">
-    <input type="text" class="form-control" placeholder="Search GitHub Users With Username">
+    <input type="text" class="form-control" placeholder="Search GitHub Users With Username" [(ngModel)]="username" name="username" (keyup) = "findProfile()" >
   </div>
 
 </form>
@@ -47,8 +48,8 @@
     <div class="panel-heading">
       <h3 class="panel-title"> Repositories.</h3>
       <div class="panel-body" *ngFor="let repo of repos">
-        <p>
-          {{repo.name}} <a href="{{repo.html.url}}" class = "btn btn-sm btn-warning">View This Project On GitHub</a>
+        <p> {{repo.name}}
+          <a href="{{repos.html_url}}" class="btn btn-sm btn-warning pull-right"> View Repository</a>
         </p>
         <p> {{repo.description}}</p>
       </div>
