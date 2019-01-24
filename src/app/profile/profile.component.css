@@ -1,11 +1,6 @@
-.container{
-    background-color: aquamarine;
-}
 h2{
     text-align: center;
     text-underline-position: below;
-    text-emphasis-color: blue;
-    color: cadetblue;
 }
 .searchform{
     padding-top: 70px;
