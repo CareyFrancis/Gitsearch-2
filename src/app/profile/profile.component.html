@@ -1,3 +1,10 @@
+<br>
+<form action="" class="searchform">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search GitHub Users With Username">
+  </div>
+
+</form>
 <div class="container">
 
     <h2>
@@ -15,7 +22,7 @@
       <div class="row">
         <div class="col-sm-3">
           <h4>Profile</h4>
-          <img src="{{profile.avatar_url}}" alt="Profile Image" style="height:50%; width:50%" class="img-circle img-responsive">
+          <img src="{{profile.avatar_url}}" alt="Profile Image" style="height:90%; width:100%" class="img-circle img-responsive">
         </div>
   
         <hr>
@@ -29,7 +36,6 @@
   
         </div>
         <div class="col-sm-4" *ngIf="profile">
-          <h4> Following</h4>
           <p>
             <span class="label label-default">{{profile.followers}} Followers </span>
             <span class="label label-primary"> {{profile.following}} Following </span>
