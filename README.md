@@ -7,7 +7,7 @@ by #### Carey Francis Ojall.
 The application simply lets you search for GitHub users and tsee their profiles and repositories. Just type the username of the profile you are looking for and watch the application search for the profile autoamtically.
 
 ## Link to the live site
-The link to the live site is found at 
+The link to the live site is found at https://careyfrancis.github.io/Gitsearch-2/
 
 ## Development server
 
