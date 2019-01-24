@@ -13,7 +13,6 @@
     <hr>
     <div class="panel panel-default">
       <a href="https://github.com/careyfrancis" class="btn btn-info bn-l"> View profile on github
-        <!-- <img src="assets/pix.jpeg" style="height:10%; width:10%"> -->
       </a>
     </div>
     <hr>
@@ -48,8 +47,8 @@
     <div class="panel-heading">
       <h3 class="panel-title"> Repositories.</h3>
       <div class="panel-body" *ngFor="let repo of repos">
-        <p> {{repo.name}}
-          <a href="{{repos.html_url}}" class="btn btn-sm btn-warning pull-right"> View Repository</a>
+        <p>
+          {{repo.name}} <a href="{{repo.html.url}}" class = "btn btn-sm btn-warning">View This Project On GitHub</a>
         </p>
         <p> {{repo.description}}</p>
       </div>
